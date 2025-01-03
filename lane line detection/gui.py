@@ -52,7 +52,6 @@ def show_vid2():
 
 if __name__ == '__main__':
     root=tk.Tk()   
-    img = ImageTk.PhotoImage(Image.open("logo.png"))
     heading = Label(root,image=img, text="Lane-Line Detection")
     heading.pack() 
     heading2=Label(root,text="Lane-Line Detection",pady=20, font=('arial',45,'bold'))                                 
